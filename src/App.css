@@ -1,0 +1,43 @@
+.login-button {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.nav-section {
+    justify-content: center;
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+    /* justify-content: center; */
+    list-style-type: none;
+}
+
+.menu-list li {
+    padding: 10px;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.search-box {
+    justify-self: flex-end;
+}
+
+.product-card img{
+    width: 100%;
+}
+
+.product-card:hover{
+    /*  확대 */
+    transform: scale(1.1);
+}
+
+.product-img{
+    display: flex;
+    justify-items: flex-end;
+}
